@@ -4,14 +4,24 @@
 /web-app/WEB-INF
 
 # IDE support files
-/.classpath
-/.launch
-/.project
-/.settings
-/*.launch
-/*.tmproj
-/ivy*
-/eclipse
+#/.classpath
+#/.launch
+#/.project
+#/.settings
+#/*.launch
+#/*.tmproj
+#/ivy*
+#/eclipse
+
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+.DS_Store
+log/
+target/
 
 # default HSQL database files for production mode
 /prodDb.*
